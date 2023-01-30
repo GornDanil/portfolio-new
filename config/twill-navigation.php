@@ -1,4 +1,4 @@
-<?php
+з<?php
 
 return [
     'posts' => [

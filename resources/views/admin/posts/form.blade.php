@@ -29,11 +29,9 @@
     'type' => 'textarea',
     ])
 
-    @formField('input', [
+    @formField('medias', [
     'name' => 'intro',
-    'label' => 'текст',
-    'translated' => true,
-    'type' => 'textarea',
+    'label' => 'Превью',
     ])
 
     @formField('medias', [

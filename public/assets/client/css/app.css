@@ -2,29 +2,29 @@
 /* font-weight: 300 */
 @font-face {
     font-family: 'MullerLight';
-    src: url(/fonts/MullerLight.otf?a05f20818442b75302c9ed8257c2e470);
+    src: url(/assets/client/fonts/MullerLight.otf?a05f20818442b75302c9ed8257c2e470);
 }
 @font-face {
     font-family: 'MullerRegular';
-    src: url(/fonts/MullerRegular.otf?3f482a1e96309bf49aa777f2580d87d1);
+    src: url(/assets/client/fonts/MullerRegular.otf?3f482a1e96309bf49aa777f2580d87d1);
 }
 /* font-weight: 500 */
 @font-face {
     font-family: 'MullerMedium';
-    src: url(/fonts/MullerMedium.otf?ccc8de4da9c1e8270602469640d95f1f);
+    src: url(/assets/client/fonts/MullerMedium.otf?ccc8de4da9c1e8270602469640d95f1f);
 }
 
 @font-face {
     font-family: 'MullerBold';
-    src: url(/fonts/MullerBold.otf?48cd5da31a96217e12b825b5c6e64f89);
+    src: url(/assets/client/fonts/MullerBold.otf?48cd5da31a96217e12b825b5c6e64f89);
 }
 @font-face{
     font-family: 'MullerExtraBold';
-    src: url(/fonts/MullerExtraBold.otf?c0e3e6298487d6cd35f533039493bc9c);
+    src: url(/assets/client/fonts/MullerExtraBold.otf?c0e3e6298487d6cd35f533039493bc9c);
 }
 @font-face {
     font-family: 'Monument';
-    src: url(/fonts/MonumentRegular.otf?db74f7a563ec017311bc7a57573e2497);
+    src: url(/assets/client/fonts/MonumentRegular.otf?db74f7a563ec017311bc7a57573e2497);
 }
 *{
     font-family: 'MullerRegular';

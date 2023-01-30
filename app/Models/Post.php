@@ -34,6 +34,21 @@ class Post extends Model implements Sortable
     ];
 
     public $mediasParams = [
-        'images'
+        'image' => [
+            'default' => [
+                [
+                    'name' => 'image',
+                ],
+            ],
+        ],
+        'intro' => [
+            'default' => [
+                [
+                    'name' => 'intro',
+                    'ratio' => 1,
+                ],
+            ],
+        ],
     ];
+
 }
