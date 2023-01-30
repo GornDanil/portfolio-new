@@ -6,7 +6,7 @@
     <div class="portfolio">
         <div class="portfolio-cont container">
             <div class="portfolio-img">
-                <img src="img\portfolio.png" alt="">
+                <img src="assets/client/img/portfolio.png" alt="">
             </div>
             <div class="portfolio-rightcol">
                 <p class="portfolio-name">
@@ -28,22 +28,25 @@
             <p><span>Я графический дизайнер из Томска. Мне нравится работать с типографикой, разрабатывать дизайн упаковки, создавать плакаты
       и рисовать к проектам векторные и растровые иллюстрации. Всегда стараюсь смотреть на работу с разных ракурсов и искать
       вдохновение в изобразительном искусстве, музыке и кино.</span></p>
-            <img src="img\portrait.svg" alt="">
+            <img src="assets/client/img/portrait.svg" alt="">
         </div>
     </div>
 
     <div class="container section" id="projects">
-        <img class="projects-title" src="img\projects.svg" alt="">
+        <img class="projects-title" src="assets/client/img/projects.svg" alt="">
         <div class="projects-grid">
-            @foreach($data as $el)
-                <a href="{{ route('ShowOnePortfolio', $el->id) }}" class="project-link"><img src="{{$el->intro }}" alt=""><span>{{ $el->title }}</span></a>
+            @foreach($posts as $post)
+                <a href="" class="project-link">
+                    <img src="{{ $post->image('intro') }}" alt="">
+                    <span>{{ $post->title }}</span>
+                </a>
             @endforeach
         </div>
     </div>
 
     <div class="container section" id = "contacts">
         <div class="contacts">
-            <img src="img\contacts.svg" alt="">
+            <img src="assets/client/img/contacts.svg" alt="">
 
             <div class="contact">
                 <p>позвонить или написать</p>

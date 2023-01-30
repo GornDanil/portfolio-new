@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>@yield('title-block')</title>
-    <link rel="shortcut icon" href="img\logo.svg" type="image/x-icon">
-    <link rel="stylesheet" href="{{ URL::asset('css/app.css') }} ">
+    <link rel="shortcut icon" href="assets/client/img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/client/css/app.css">
 </head>
 
 <body>
